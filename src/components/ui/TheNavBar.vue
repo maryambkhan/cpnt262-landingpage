@@ -1,9 +1,10 @@
 <template>
-  <nav class="flex flex-col items-center  justify-center  text-purple-900">
+  <nav class="flex flex-col items-center justify-center  text-white">
     <ul>
-      <a href="#" class="p-10 font-bold text-lg underline hover:no-underline">WORK</a>
-      <a href="#" class="p-10 font-bold text-lg underline hover:no-underline">ABOUT</a>
-      <a href="#" class="p-10 font-bold text-lg underline hover:no-underline">CONTACT</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline">New</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline">Makeup</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline">Hair</a>
+       <a href="#" class="p-8 font-bold text-lg  hover:underline">Fragrance</a>
     </ul>
   </nav>
 </template>

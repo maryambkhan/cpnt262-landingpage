@@ -1,12 +1,14 @@
 <template>
-  <header class="flex justify-between gap-4 bg-white py-4">
-    <div class="flex gap-2 items-center ml-8">
-      <span class="text-2xl font-semibold text-purple-900">ZEE</span>
+  <header class="flex  justify-between bg-black py-4">
+    <TheLogo />
+    <div class="flex justify-center">
+      <span class="text-2xl font-semibold text-white">SEPHORA</span> 
     </div>
-    <TheNavBar />
+   <TheNavBar />
   </header>
 </template>
 
 <script setup>
 import TheNavBar from "./TheNavBar.vue";
+import TheLogo from "./TheLogo.vue";
 </script>
