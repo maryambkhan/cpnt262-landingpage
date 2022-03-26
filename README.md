@@ -1,24 +1,11 @@
 # cpnt262-landingpage
 
-## Project setup
-```
-npm install
-```
+## Maryam Khan
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Vue/Nuxt Landing Page
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Code Journal
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Installed vue3 via vue ui 
+- Looking at websites for something good that inspires
+  for this landing page assignment.
