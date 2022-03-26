@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TheHeader />
+  <main>
+  <div>
+    <HeroSectionImage  :url="heroImage.backgroundImage"/>
+    <HeroSectionTitle :title="heading" />
+  </div>
+ <TheFooter :title="'&copy; Maryam Khan 2022'" />
+  </main>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import TheHeader from "./components/ui/TheHeader.vue";
+import HeroSectionImage from "./components/layouts/HeroSectionImage.vue";
+import TheFooter from "./components/ui/TheFooter.vue";
+import HeroSectionTitle from "./components/layouts/HeroSectionTitle.vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+
+// heroImage
+const heroImage = {
+  backgroundImage :"https://images.pexels.com/photos/2080960/pexels-photo-2080960.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
 }
+
+const heading ="Welcome to my page";
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
