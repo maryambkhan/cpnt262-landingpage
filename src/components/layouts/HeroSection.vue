@@ -1,5 +1,5 @@
 <template>
-  <div class=" space-y-10 md:space-y-0 md:grid md:grid-cols-2 bg-red-100 mt-4">
+  <div class=" space-y-10 md:space-y-0 md:grid md:grid-cols-2 mt-2 bg-pink-200 ">
     <div class="ml-4 text-center md:flex md:flex-col md:justify-center">
       <h1 class="text-black text-2kl md:text-4xl lg:text-6xl font-bold ">KEYS SOULCARE IS HERE</h1>
       <p class="md:text-lg text-gray-900">

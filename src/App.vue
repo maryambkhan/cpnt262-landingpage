@@ -20,8 +20,8 @@
         </card-layout>
       </div>
     </section>
-    <!--Post Section-->
-    <PostLayout />
+    <!--Post Card Section-->
+    <Postcard />
     <!--cards-->
     <PageTitle :title="'Selling Fast'" />
     <section>
@@ -34,6 +34,18 @@
         </card-layout>
       </div>
     </section>
+    <ThePostCard/>
+     <section>
+      <div class="flex flex-wrap justify-center mt-8">
+        <card-layout v-for="card in cards" :key="card.id">
+          <card-image :url="card.image" />
+          <card-title>{{ card.title }}</card-title>
+          <card-info>{{ card.info }}</card-info>
+          <action-button>Add to Cart</action-button>
+        </card-layout>
+      </div>
+    </section>
+     <!--post-->
      <PostLayout />
   </main>
   <TheFooter :title="'&copy; Maryam Khan 2022'" />
@@ -51,7 +63,8 @@ import CardTitle from "./components/cards/CardTitle.vue";
 import PageTitle from "./components/layouts/PageTitle.vue";
 import PageAction from "./components/layouts/PageAction.vue";
 import PostLayout from "./components/posts/PostLayout.vue";
-
+import Postcard from "./components/posts/PostCard.vue";
+import ThePostCard from "./components/posts/posts-1/ThePostCard.vue";
 
 const cards = [
   // first card
