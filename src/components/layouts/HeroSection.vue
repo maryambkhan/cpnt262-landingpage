@@ -1,8 +1,8 @@
 <template>
-  <div class="grid grid-cols-2 items-center text-center mt-10 ml-12">
-    <div class="w-85 gap-5">
-      <h1 class="mb-8 text-6xl"><strong>KEYS SOULCARE</strong> IS HERE</h1>
-      <p class="font-semibold text-xl">
+  <div class=" space-y-10 md:space-y-0 md:grid md:grid-cols-2 bg-red-100 mt-4">
+    <div class="ml-4 text-center md:flex md:flex-col md:justify-center">
+      <h1 class="text-black text-2kl md:text-4xl lg:text-6xl font-bold ">KEYS SOULCARE IS HERE</h1>
+      <p class="md:text-lg text-gray-900">
         Beauty that's good for your skin and soul
       </p>
       <div class="flex flex-row justify-around">
@@ -17,7 +17,7 @@
       <img
         src="https://images.pexels.com/photos/6543903/pexels-photo-6543903.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
         alt="Hero image"
-        class="w-full mr-2"
+        class=" w-full  "
       />
     </div>
   </div>
