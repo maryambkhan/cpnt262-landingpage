@@ -1,10 +1,10 @@
 <template>
-  <nav class="flex flex-col items-center justify-center  text-white">
+  <nav class="flex flex-wrap items-center justify-center  text-white">
     <ul>
-      <a href="#" class="p-8 font-bold text-lg  hover:underline">New</a>
-      <a href="#" class="p-8 font-bold text-lg  hover:underline">Makeup</a>
-      <a href="#" class="p-8 font-bold text-lg  hover:underline">Hair</a>
-       <a href="#" class="p-8 font-bold text-lg  hover:underline">Fragrance</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline decoration-wavy">New</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline decoration-wavy">Makeup</a>
+      <a href="#" class="p-8 font-bold text-lg  hover:underline decoration-wavy">Hair</a>
+       <a href="#" class="p-8 font-bold text-lg  hover:underline decoration-wavy">Fragrance</a>
     </ul>
   </nav>
 </template>

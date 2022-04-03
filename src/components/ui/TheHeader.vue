@@ -1,10 +1,8 @@
 <template>
-  <header class="flex  justify-between bg-black py-4">
+  <header class="flex flex-wrap justify-between bg-black py-4">
     <TheLogo />
-    <div class="flex justify-center">
-      <span class="text-2xl font-semibold text-white">SEPHORA</span> 
-    </div>
-   <TheNavBar />
+    <TheNavBar />
+    
   </header>
 </template>
 
