@@ -4,8 +4,8 @@
 
 ## Vue/Nuxt Landing Page
 
-- [GH repo]()
-- [Netlify site]()
+- [GH repo](https://github.com/maryambkhan/cpnt262-landingpage)
+- [Netlify site](https://6249e11920abb61ea9c117f5--jocular-biscochitos-431205.netlify.app/)
 ### Code Journal
 
 - Installed vue3 via vue ui 
@@ -18,6 +18,7 @@
  created 2 card arrays but i am not going to do it so i have not created card array twice but i think
  i am going to do that with posts becouse i want to add two different kinds of posts.
 - I just created a search bar to fillter the search like i am looking for lipstick so i can get related to that
+- Having little trouble making it work i am not sure what is wrong ifollowed the documents too
 
 ### Attributions
 
