@@ -1,6 +1,6 @@
 <template>
-  <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 mt-10">
-    <div class="ml-4 text-center md:flex md:flex-col md:justify-center">
+  <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 mt-10 bg-gray-300 m-8">
+    <div class="ml-4 text-center md:flex md:flex-col md:justify-center ">
       <h1 class="text-black text-2kl md:text-4xl lg:text-6xl font-bold">
         FEEL THE BREEZE
       </h1>

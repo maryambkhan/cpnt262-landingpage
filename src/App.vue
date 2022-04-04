@@ -10,7 +10,7 @@
     <!-- Card Section-->
     <PageTitle :title="'Brand-New Additions'" />
     <section class="flex justify-end mt-4 bg-gray-200 p-2">
-       <p class="mr-2">Message is: {{ message }}</p>
+       <p class="mr-2">SEARCH: {{ message }}</p>
       <input  :v-model="text" :v-on="message"
         class="
           mr-2
@@ -77,7 +77,7 @@
 
 <script setup>
 
-import { ref } from 'vue'
+import { computed } from 'vue'
 import TheHeader from "./components/ui/TheHeader.vue";
 import HeroSection from "./components/layouts/HeroSection.vue";
 import TheFooter from "./components/ui/TheFooter.vue";
@@ -150,8 +150,10 @@ const cards = [
   },
 ];
 
-function onChange (message){
-  console.log (message);
+  function filterItems(arr, query) {
+  return arr.filter(function(el) {
+  })
 }
+console.log(filterItems(cards, 'ap'))
 </script>
 
